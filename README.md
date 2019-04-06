@@ -3,8 +3,7 @@
 
 # 操作指南
 1.新机器首次需要进入cmd，关闭windows数据保护DEP（dep可能会导致不安全代码闪退）：bcdedit.exe/set {current} nx AlwaysOff，重启电脑<br/><br/>
-2.下载项目，进入mac/ipad目录，打开WeChatServer.exe.config<br/><br/>
-3.配置api端口，和websocket端口，管理员密码等参数
+2.下载项目，进入mac/ipad目录，打开WeChatServer.exe.config配置api端口、websocket端口、管理员密码等参数
 ```  
     <add key="WebApiHost" value="22221" />
     <add key="WebSocketHost" value="22222" />
