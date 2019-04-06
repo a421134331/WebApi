@@ -1,6 +1,7 @@
 # 微信mac/ipad协议，webapi本地部署
 首次可以免费试用1天，想要继续租用或购买请联系qq：929918989
 
+# 操作指南
 1.新机器首次需要进入cmd，关闭windows数据保护DEP（dep可能会导致不安全代码闪退）：bcdedit.exe/set {current} nx AlwaysOff，重启电脑<br/><br/>
 2.下载项目，进入mac/ipad目录，打开WeChatServer.exe.config<br/><br/>
 3.配置api端口，和websocket端口，管理员密码等参数
@@ -15,3 +16,7 @@
 7.微信登录获取二维码需要参考Test.html中websocket方式创建websocket链接来获取二维码登录。uuid为创建websocket时传入参数<br/><br/>
 8.在微信成功登录以后，即可通过Http post的方式传入uuid来操作微信了<br/><br/>
 9.有时微信多次非正常退出或者操作频繁时，会造成Api接口异常崩溃，可以运行进程保活工具<br/><br/>
+# 奖励计划
+每多10个star，则随机赠送1人协议租用！
+# 声明
+仅供自己学习研究使用，引起任何法律纠纷概不负责
